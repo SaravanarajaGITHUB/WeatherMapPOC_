@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherMapPOC</string>
+    <string name="city_chennai">Chennai</string>
+    <string name="city_mumbai">Mumbai</string>
+    <string name="city_bangalore">Bangalore</string>
+    <string name="city_newdelhi">Delhi</string>
+</resources>

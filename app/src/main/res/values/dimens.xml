@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="margin_1dp">1dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+
+    <dimen name="text_size_tiny_10sp">10sp</dimen>
+    <dimen name="text_size_small_12sp">12sp</dimen>
+
+    <dimen name="divider_space_1dp">1dp</dimen>
+    <dimen name="spacing_24dp">24dp</dimen>
+    <dimen name="spacing_8dp">8dp</dimen>
+
+</resources>

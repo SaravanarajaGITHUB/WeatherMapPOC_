@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="@dimen/margin_5dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@null"
+        android:padding="@dimen/margin_2dp">
+
+        <LinearLayout
+            android:id="@+id/viewLinearLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2dp"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/viewTextDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2dp"
+                android:fontFamily="@font/roboto_medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <ImageView
+                android:id="@+id/viewImageDayWeatherIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/viewTextDayTempCandF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewLinearLay"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_vertical"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Querries>
+
+     <Root>
+         <value>https://api.openweathermap.org/data/2.5/</value>
+         <key>root_url_web_api</key>
+     </Root>
+
+    <Root>
+        <value>forecast/daily?q=</value>
+        <key>url_get_daily_forecast</key>
+    </Root>
+
+</Querries>
